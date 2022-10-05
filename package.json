@@ -5,7 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "@algo-builder/algob": "^5.0.1",
-    "@algo-builder/web": "^5.0.1"
+    "@algo-builder/web": "^5.0.1",
+    "ts-mocha": "^10.0.0"
   },
   "devDependencies": {
     "@types/chai": "^4.3.3",
