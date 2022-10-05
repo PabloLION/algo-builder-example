@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/pablo/.nvm/versions/node/v18.2.0/bin/node /Users/pablo/.yarn/bin/yarn.js add @algobuilder/algob
+
+PATH: 
+  /Users/pablo/node:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/pablo/.npm-global/bin:/Users/pablo/Library/pnpm:/Users/pablo/.nvm/versions/node/v18.2.0/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/pablo/.cargo/bin:/Users/pablo/.yarn/bin:/Users/pablo/Library/Python/3.10/bin:/Users/pablo/.cargo/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.2.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@algobuilder%2falgob: Not found
+      at params.callback [as _callback] (/Users/pablo/.yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/pablo/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/Users/pablo/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/Users/pablo/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "algo-builder-example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

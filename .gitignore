@@ -1,0 +1,9 @@
+# mac
+.DS_Store
+
+# algob
+node_modules
+*/**/__pycache__/
+
+# ts
+build/
