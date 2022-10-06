@@ -1,12 +1,6 @@
-import {
-  AccountStore,
-  getProgram,
-  Runtime,
-  types as runtimeTypes,
-} from "@algo-builder/runtime";
-import { parsing, types as webTypes } from "@algo-builder/web";
+import { AccountStore, Runtime } from "@algo-builder/runtime";
+import { types as webTypes } from "@algo-builder/web";
 import { expect } from "chai";
-import { assert } from "console";
 
 it("test CallerApplicationID", () => {
   // Arrange
